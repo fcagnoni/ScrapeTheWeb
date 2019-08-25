@@ -1,0 +1,23 @@
+.article {
+  padding: 40px 0;
+}
+
+
+.comments {
+  padding: 10px;
+  border: 1px solid #ebebeb;
+}
+
+.comment {
+  border-bottom: 1px solid #ebebeb;
+  padding: 5px 10px;
+}
+
+.createdAt {
+  font-weight: bold;
+  margin-right: 10px; 
+}
+
+.comment:nth-child(even) {
+  background: whitesmoke;
+}
